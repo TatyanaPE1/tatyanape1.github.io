@@ -1,0 +1,162 @@
+body {
+	font-family: Comic Sans MS, sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	min-width: 1300px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+
+.clearfix:after {
+content: "";
+display:table;
+width: 100%;
+clear: both;
+}
+
+header {
+	background: url(../img/bg.jpg) no-repeat center top / cover;
+ height: 560px;
+
+}
+
+
+
+nav {
+	float: right;
+	margin-top: 50px; 
+
+	
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+	
+}
+.menu li {
+
+	float: left;
+	display: block;
+	text-transform: uppercase;
+	margin-right: 95px;
+	font-size: 30px;
+
+
+}
+.menu li a {
+ color: #000;
+ text-decoration: none;
+}
+.titles___first {
+	font-size: 160px;
+	color: red;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 385px;
+	margin-top: 145px
+
+}
+
+h1 {
+	font-size: 80px;
+	color: red;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 200px;
+
+}
+
+
+
+.title {
+	padding-top: 90px;
+
+}
+.title h2 {
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px;
+
+
+}
+.title p {
+	font-size: 39px;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+article {
+	background: url(../img/img2.jpg) no-repeat center top / cover;
+ height: 800px;
+
+}
+
+.blok {
+color: red;
+}
+.blok_1 {
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-top: 310px;
+	margin-left: 100px;
+	font-size: 28px;
+
+}
+
+.blok_2 {
+	width: 400px;
+	float: right;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 290px;
+	margin-right: 120px;
+
+}
+
+.case_1 {
+	width: 400px;
+	float: right;
+	margin-top: 70px;
+	font-size: 28px;
+	margin-right: 250px;
+	text-align: center;
+
+} 
+
+.case_2 {
+	width: 430px;
+	float: right;
+	margin-top: -220px;
+	font-size: 30px;
+	margin-right: 75px;
+	text-align: center;
+} 
+
+aside {
+	background: url(../img/img3.jpg) no-repeat center top / cover;
+ height: 600px;
+ padding-top: 60px;
+
+ 
+}
+
+
+
+.text3 h2 {
+	width: 400px;
+	float: center;
+	margin-top: 280px;
+	font-size: 45px;
+	margin-left: 460px;
+	color: red;
+	text-align: center;
+

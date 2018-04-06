@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+<link href="https://sun9-4.userapi.com/c840420/v840420635/73372/usPNoh2S8Ng.jpg" rel="shortcut icon" type=image/vnd.microsoft.icon>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<title></title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jQuizler.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/jQuizler.css" />
+<header>
+<script type="text/javascript">
+var questions = [
+     {
+        type: "choose",
+        question: "<h3>Кто написал данное произведение?</h3>",
+        answers: [
+            "Н.В.Гоголь",
+            "Д.И.Фонвизин",
+            "А.П.Чехов"
+        ],
+        correct: [1]
+    },
+    {
+        type: "choose",
+        question: "<h3>Какая пословица служит эпиграфом к «Ревизору»?</h3>",
+        answers: [
+            "«Береги честь смолоду»",
+            "«Честное дело не таится»",
+            "«На зеркало неча пенять, коли рожа крива»"
+        ],
+        correct: [3]
+    },
+    {
+        type: "choose",
+        question: "<h3>К какому жанру литературы относится данное произведение?</h3>",
+        answers: [
+            "Комедия",
+            "Юмористический рассказ",
+            "Трагикомедия"
+        ],
+        correct: [1]
+    },
+    {
+        type: "choose",
+        question: "<h3>Кто такой Иван Кузьмич Шпекин?</h3>",
+        answers: [
+            "Уездный лекарь",
+            "Чочтмейстер",
+            "Частный пристав"
+        ],
+        correct: [2]
+    },
+    {
+        type: "choose",
+        question: "<h3>Из какой губернии родом Хлестаков?</h3>",
+        answers: [
+            "Смоленская",
+            "Ярославская",
+            "Саратовская"
+        ],
+        correct: [3]
+    },
+    {
+        type: "choose",
+        question: "<h3>Кто это: «Попечитель богоугодных заведений, очень толстый, неповоротливый и неуклюжий человек, но при всем том проныра и плут. Очень услужлив и суетлив»</h3>",
+        answers: [
+            "Аммос Фёдорович Ляпкин-Тяпкин",
+            "Лука Лукич Хлопов",
+            "Артемий Филлипович Земляника"
+        ],
+        correct: [3]
+    },
+    {
+        type: "choose",
+        question: "<h3>Как звали жену городничего?</h3>",
+        answers: [
+            "Анна Андреевна",
+            "Василиса Егоровна",
+            "Клавдия Никитична"
+        ],
+        correct: [1]
+    },
+    {
+        type: "choose",
+        question: "<h3>Кому делал предложение Хлестаков?</h3>",
+        answers: [
+            "Дочери и жене городничего",
+            "Дочери городничего",
+            "Жене городничего"
+        ],
+        correct: [2]
+    },
+    {
+        type: "choose",
+        question: "<h3>К характеру какого героя из «Ревизора» подходит данная фраза: «Без царя в голове.»?</h3>",
+        answers: [
+            "Городничий",
+            "Земляника",
+            "Хлестаков"
+        ],
+        correct: [3]
+    },
+    {
+        type: "choose",
+        question: "<h3>Чьи это слова и о ком: «Эка, уж и в генералы лезет!..Ведь у него важности довольно.»?</h3>",
+        answers: [
+            "Аммос Федорович Ляпкин-Тяпкин об Артемии Филлиповиче Землянике",
+            "Артемий Филлипович Землчника о городничем",
+            "Осип о Хлестакове"
+        ],
+        correct: [2]
+    }
+ ];
+
+$("document").ready(function(){
+    $("#jQuizler").jQuizler(questions);
+});
+
+</script>
+</header>
+</head>
+
+<body>
+    <div id="jQuizler" class="main-quiz-holder">
+        <h3>Тест по произведению "Ревизор"</h3>
+		<p><img src="img/Rev.png" /></p>
+        <button class="btn btn-large">Начать тест</button>
+    </div>
+</body>
+</html>

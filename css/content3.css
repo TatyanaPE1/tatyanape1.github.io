@@ -1,0 +1,24 @@
+body {
+	font-family: Comic Sans MS, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: white;
+font-size: 19px;
+min-width: 1300px;
+overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: center;
+
+}
+.text2 {
+	text-align: center;
+	width: 840px;
+   height: px;
+
+}
+.text3 {
+	text-align: left;
+	width: 840px;
+   height: px;
+
+}

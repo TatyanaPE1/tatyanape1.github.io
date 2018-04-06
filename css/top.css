@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: white;
+
+
+}
+header {
+	background: url(../img/bg5.jpg) no-repeat center top / cover;
+ height: 350px;
+
+}
+
+.case {
+	
+	float: left;
+	margin-top: 110px;
+	font-size: 50px;
+	margin-left: 400px;
+	text-align: center;
+}

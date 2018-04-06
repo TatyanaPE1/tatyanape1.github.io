@@ -1,0 +1,38 @@
+body {
+	font-family: Comic Sans MS, sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	min-width: 1300px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+header {
+	background: url(../img/bg8.jpg) no-repeat center top / cover;
+ height: 490px; 
+}
+
+article {
+	background: url(../img/bg9.jpg) no-repeat center top / cover;
+ height: 422px;
+}
+.test1 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: -300px;
+	margin-left: -900px;
+	
+}
+.test2 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: -150px;
+	margin-left: -40px;
+	
+}
+.test3 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: -150px;
+	margin-left: 825px;
+
+}
